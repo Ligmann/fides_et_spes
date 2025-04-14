@@ -1,0 +1,31 @@
+{
+  "name": "wp-theme-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@popperjs/core": "^2.10.1",
+    "babel-loader": "^8.2.2",
+    "browser-sync": "^2.27.5",
+    "cli-color": "^2.0.3",
+    "del": "^6.0.0",
+    "dom7": "^4.0.0",
+    "dotenv": "^10.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-webp": "^4.0.1",
+    "node-sass": "^7.0.3",
+    "ssr-window": "^4.0.0",
+    "vinyl-named": "^1.1.0",
+    "webpack": "^5.52.1",
+    "webpack-stream": "^7.0.0"
+  },
+  "scripts": {
+    "build": "gulp",
+    "dev": "gulp watch"
+  }
+}

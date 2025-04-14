@@ -1,0 +1,12 @@
+//	TRANSITION
+@function  transition($propert, $time) {
+	@return $time $name-trans $propert;
+}
+@function  transition_two($propert) {
+	@return $time $name-trans-two $propert;
+}
+
+//	url catalog
+@function url-icons($propert) {
+	@return url('../images/icons/' + $propert)
+};
