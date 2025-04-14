@@ -1,9 +1,10 @@
 <?php
 /**
  * Template Name: home
- * Template Post Type: home
  *
  * @package fides-et-spes
  */
+get_header();
 ?>
-Home
+Home page
+<?php get_footer() ?>
